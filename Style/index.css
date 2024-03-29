@@ -1,0 +1,14 @@
+body {
+  background-color: #f5e3e2;
+}
+.body {
+  background-color: white;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 15px;
+  padding: 30px;
+  font-family: roboto;
+}
+h1 {
+  color: #831d1c;
+}
