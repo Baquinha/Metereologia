@@ -15,20 +15,31 @@
   <body>
     <div class="body">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday 14:49, scaterred clouds <br />
-            Humidity: 66%, Wind 3.13km/h
-          </p>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Paris</h1>
+            <p class="weather-details">
+              Tuesday 14:49, scattered clouds <br />
+              Humidity: <strong>66%</strong>, Wind <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-temperature-container">
+            <div class="weather-temperature-icon">&#x1F324;&#xFE0F;</div>
+            <div class="weather-temperature-value">12</div>
+            <div class="weather-temperature-unit">ºC</div>
+          </div>
         </div>
-        <div>&#x1F324;&#xFE0F; 12ºC</div>
       </main>
       <footer>
         Coded by <a href="https://github.com/Baquinha"> Mariana Rio</a>, code
